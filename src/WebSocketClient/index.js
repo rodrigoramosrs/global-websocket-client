@@ -24,7 +24,8 @@ const WebSocketClient = {
   sendAsBase64: data => {
     if (!_websocket) return;
     let message = NormalizeDataToBase64(data);
-    if (!isBase64(message)) message = _websocket.send(message);
+    
+    _websocket.send(message);
   },
   close: () => {
     if (!_websocket) return;
