@@ -15,8 +15,7 @@ import WebSocketClient from "../../src";
 
 class Demo extends Component {
   state = {
-    Show: false,
-    Showing: false
+    WebSocketUri: 'wss://echo.websocket.org'
   };
 
   componentDidMount(){
