@@ -1,4 +1,4 @@
-# Sigleton Websocket Client for React JS
+# Global Sigleton Websocket Client for React JS
 
 [![NuGet version](https://badge.fury.io/js/global-websocket-client.svg)](https://www.npmjs.com/package/global-websocket-client)
 
